@@ -1,5 +1,5 @@
-From python:3.6-slim
+From python:3.12-slim
 
-RUN pip install pymilvus==2.0.0
+RUN pip3 install pymilvus==2.4.0
 
 ENTRYPOINT ["python"]
